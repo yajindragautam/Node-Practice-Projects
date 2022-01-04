@@ -4,6 +4,7 @@
   "description": "Show Flash Message Using connect-flash",
   "main": "app.js",
   "scripts": {
+    "start":"nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Yaji",
@@ -11,7 +12,9 @@
   "dependencies": {
     "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.6",
+    "ejs": "^3.1.6",
     "express": "^4.17.2",
-    "express-session": "^1.17.2"
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.15"
   }
 }
