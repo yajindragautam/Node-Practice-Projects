@@ -1,0 +1,16 @@
+{
+  "name": "create-demo-work-for-promises",
+  "version": "1.0.0",
+  "description": "Node Practice",
+  "main": "promise.js",
+   "type" : "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yajindra",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
